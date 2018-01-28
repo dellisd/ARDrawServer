@@ -12,7 +12,7 @@ namespace ARDrawServer.Controllers
     {
 
         private string _connStr =
-            "server=ardraw-db-instance.crr5w2xqdwfp.us-east-2.rds.amazonaws.com;user=ardraw_user;database=ardraw_db;port=3306;password=;";
+            "server=ardraw-db-instance.crr5w2xqdwfp.us-east-2.rds.amazonaws.com;database=ardraw_db;user=ardraw_user;port=3306;password=hackconcordia;";
 
         private MySqlConnection _conn;
 

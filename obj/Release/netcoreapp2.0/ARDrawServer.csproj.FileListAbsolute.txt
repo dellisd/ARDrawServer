@@ -1,0 +1,10 @@
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ARDrawServer.deps.json
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ARDrawServer.runtimeconfig.json
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ARDrawServer.runtimeconfig.dev.json
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ARDrawServer.dll
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ARDrawServer.pdb
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ARDrawServer.csproj.CoreCompileInputs.cache
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ARDrawServer.AssemblyInfoInputs.cache
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ARDrawServer.AssemblyInfo.cs
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ARDrawServer.dll
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ARDrawServer.pdb

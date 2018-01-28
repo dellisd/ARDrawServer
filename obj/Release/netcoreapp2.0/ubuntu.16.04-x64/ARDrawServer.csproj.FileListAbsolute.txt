@@ -1,0 +1,13 @@
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ubuntu.16.04-x64\libhostpolicy.so
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ubuntu.16.04-x64\libhostfxr.so
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.deps.json
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.runtimeconfig.json
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.runtimeconfig.dev.json
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.dll
+C:\Users\derek\RiderProjects\ARDrawServer\bin\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.pdb
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.csproj.CoreCompileInputs.cache
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.AssemblyInfoInputs.cache
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.AssemblyInfo.cs
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.dll
+C:\Users\derek\RiderProjects\ARDrawServer\obj\Release\netcoreapp2.0\ubuntu.16.04-x64\ARDrawServer.pdb

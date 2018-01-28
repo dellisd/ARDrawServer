@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <PreserveCompilationContext>true</PreserveCompilationContext>
-    <RuntimeIdentifiers>win10-x64;win10-x86;ubuntu.16.04-x64</RuntimeIdentifiers>
+    <RuntimeIdentifiers>win10-x64;win10-x86;ubuntu.16.04-amd64</RuntimeIdentifiers>
     <SuppressDockerTargets>True</SuppressDockerTargets>
   </PropertyGroup>
   <ItemGroup>

@@ -59,7 +59,7 @@ namespace ARDrawServer.Controllers
             var drawings = new List<Drawing>();
             _conn.Open();
             
-            var command = new MySqlCommand("SELECT * FROM drawings WHERE latitude >= @lat - 0.05 AND longitude >= @lon - 0.05 AND latitude <= @lat + 0.05 AND longitude <= @long + 0.05", _conn);
+            var command = new MySqlCommand("SELECT * FROM drawings WHERE latitude >= @lat - 0.05 AND longitude >= @lon - 0.05 AND latitude <= @lat + 0.05 AND longitude <= @lon + 0.05", _conn);
             command.Parameters.Add(new MySqlParameter("lat", lat));
             command.Parameters.Add(new MySqlParameter("lon", lon));
             

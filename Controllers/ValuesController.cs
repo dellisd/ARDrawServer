@@ -22,7 +22,7 @@ namespace ARDrawServer.Controllers
         }
         
         // GET api/values
-        [HttpGet("region")]
+        [HttpGet]
         public IActionResult Get()
         {
             var drawings = new List<Drawing>();
@@ -36,12 +36,12 @@ namespace ARDrawServer.Controllers
                     var drawing = new Drawing
                     {
                         Id = reader.GetInt32(0),
-                        Latitude = reader.GetDecimal(1),
-                        Longitude = reader.GetDecimal(2),
-                        Altitude = reader.GetDecimal(3),
-                        Bearing = reader.GetDecimal(4),
-                        Color = reader.GetInt32(6),
-                        PathData = reader.GetString(5)
+                        Latitude = (decimal) reader.GetDouble(1),
+                        Longitude = (decimal) reader.GetDouble(2),
+                        Bearing = (decimal) reader.GetDouble(3),
+                        Altitude = (decimal) reader.GetDouble(6),
+                        Color = reader.GetInt32(5),
+                        PathData = reader.GetString(4)
                     };
                     
                     drawings.Add(drawing);
@@ -53,8 +53,8 @@ namespace ARDrawServer.Controllers
             return Ok(drawings);
         }
 
-        [HttpGet]
-        public IActionResult Regional([FromQuery] decimal lat, [FromQuery] decimal lon)
+        [HttpGet("region")]
+        public IActionResult Regional([FromQuery] decimal lat, [FromQuery] decimal lon = 0)
         {
             var drawings = new List<Drawing>();
             _conn.Open();
@@ -70,12 +70,12 @@ namespace ARDrawServer.Controllers
                     var drawing = new Drawing
                     {
                         Id = reader.GetInt32(0),
-                        Latitude = reader.GetDecimal(1),
-                        Longitude = reader.GetDecimal(2),
-                        Altitude = reader.GetDecimal(3),
-                        Bearing = reader.GetDecimal(4),
-                        Color = reader.GetInt32(6),
-                        PathData = reader.GetString(5)
+                        Latitude = (decimal) reader.GetDouble(1),
+                        Longitude = (decimal) reader.GetDouble(2),
+                        Bearing = (decimal) reader.GetDouble(3),
+                        Altitude = (decimal) reader.GetDouble(6),
+                        Color = reader.GetInt32(5),
+                        PathData = reader.GetString(4)
                     };
                     
                     drawings.Add(drawing);

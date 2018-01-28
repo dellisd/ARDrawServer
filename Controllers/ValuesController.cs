@@ -93,7 +93,7 @@ namespace ARDrawServer.Controllers
         {
             _conn.Open();
             
-            var command = new MySqlCommand("INSERT INTO drawings(latitude, longitude, altitude, bearing, pathData, color) VALUES @lat, @lon, @altitude, @bearing, @path, @color", _conn);
+            var command = new MySqlCommand("INSERT INTO drawings(latitude, longitude, altitude, bearing, pathData, color) VALUES (@lat, @lon, @altitude, @bearing, @path, @color)", _conn);
             command.Parameters.Add(new MySqlParameter("lat", value.Latitude));
             command.Parameters.Add(new MySqlParameter("lon", value.Longitude));
             command.Parameters.Add(new MySqlParameter("altitude", value.Altitude));
